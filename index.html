@@ -1,0 +1,96 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varnum's Virtual Farm Store</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: #8caf8c;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav {
+            text-align: center;
+            margin: 20px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            text-decoration: none;
+            color: #4caf50;
+            font-weight: bold;
+        }
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+        }
+        .product {
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            background: white;
+            padding: 15px;
+            width: 200px;
+            text-align: center;
+        }
+        .product img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        footer {
+            text-align: center;
+            background: #4caf50;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Varnum's Virtual Farm Store</h1>
+        <p>Fresh produce, straight from the farm to your virtual cart!</p>
+    </header>
+    <nav>
+        <a href="#produce">Produce</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <main>
+        <h2 id="produce">Our Fresh Picks</h2>
+        <div class="products">
+            <div class="product">
+                <img src="static/apple.jpg" alt="Apple">
+                <h3>Apples</h3>
+                <p>$1.50 per lb</p>
+            </div>
+            <div class="product">
+                <img src="static/persimmon.jpg" alt="Persimmon">
+                <h3>Persimmons</h3>
+                <p>$2.00 each</p>
+            </div>
+        </div>
+        <h2 id="contact">Contact Us</h2>
+        <p>Email: info@varnumsfarm.com</p>
+        <p>Phone: (555) 123-4567</p>
+    </main>
+    <footer>
+        <p>&copy; 2025 Varnum's Virtual Farm Store</p>
+    </footer>
+</body>
+</html>
